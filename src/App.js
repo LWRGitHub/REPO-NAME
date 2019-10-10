@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import PageHeader from './PageHeader'
 
 import Title from './Title'
 
@@ -8,10 +9,7 @@ import Title from './Title'
 function App() {
   return (
     <div className="App">
-      <Title text="Some Value" subtext="A string"/>
-      <Title text="Another Value"/>
-      <Title text="Hello World"/>
-      <Title text="Foo Bar"/>
+      <PageHeader />
     </div>
   );
 }
