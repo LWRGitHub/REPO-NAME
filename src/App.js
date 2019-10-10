@@ -2,23 +2,23 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function Title(props) {
+  const sub =[<p key="a">Hello</p>, <p key="b">Hello</p>]//props.subtext
+  return (
+    <div>
+      <h1>{props.text}</h1>
+      {sub}
+  </div>
+  )
+}
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title text="Some Value" subtext="A string"/>
+      <Title text="Another Value"/>
+      <Title text="Hello World"/>
+      <Title text="Foo Bar"/>
     </div>
   );
 }
