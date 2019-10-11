@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
 import PageHeader from './PageHeader'
-
-import Title from './Title'
-
-
+import PageContent from './PageContent'
 
 function App() {
   return (
     <div className="App">
       <PageHeader />
+      <PageContent/>
     </div>
   );
 }
