@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <PageHeader />
+      <AppCounter />
       <PageContent/>
       <Footer />
     </div>
