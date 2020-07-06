@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <PageHeader />
-      <AppCounter />
+      {/* <AppCounter /> */}
       <PageContent/>
       <Footer />
     </div>
